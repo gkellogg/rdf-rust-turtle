@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.email                 = 'public-rdf-ruby@w3.org'
 
   gem.platform              = Gem::Platform::RUBY
-  gem.files                 = %w(AUTHORS README.md History UNLICENSE VERSION) + Dir.glob('{src,lib}/**/*.rb')
+  gem.files                 = %w(AUTHORS README.md CONTRIBUTING.md History UNLICENSE VERSION Cargo.toml) + Dir.glob('{src,lib}/**/*.{rb,rs}')
   gem.require_paths         = %w(lib)
   gem.extensions            = %w()
   gem.test_files            = %w()
@@ -25,7 +25,6 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 2.0'
   gem.requirements          = []
   gem.add_runtime_dependency     'rdf',             '>= 2.0.0.beta', '< 3'
-  gem.add_runtime_dependency     'fiddle',          '~> 0.6'
   gem.add_development_dependency 'rspec',           '~> 3.0'
   gem.add_development_dependency 'rspec-its',       '~> 1.0'
   gem.add_development_dependency 'rdf-isomorphic',  '>= 2.0.0.beta', '< 3'

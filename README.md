@@ -4,8 +4,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/rdf-rust-turtle.png)](http://badge.fury.io/rb/rdf-rust-turtle)
 [![Build Status](https://travis-ci.org/ruby-rdf/rdf-rust-turtle.png?branch=master)](http://travis-ci.org/ruby-rdf/rdf-rust-turtle)
-[![Coverage Status](https://coveralls.io/repos/ruby-rdf/rdf-rust-turtle/badge.svg)](https://coveralls.io/r/ruby-rdf/rdf-rust-turtle)
-[![Dependency Status](https://gemnasium.com/ruby-rdf/rdf-rust-turtle.png)](https://gemnasium.com/ruby-rdf/rdf-turtle)
+[![Dependency Status](https://gemnasium.com/ruby-rdf/rdf-rust-turtle.png)](https://gemnasium.com/ruby-rdf/rdf-rust-turtle)
 
 ## Description
 This is a [Ruby][] implementation of [N-Triples][], [N-Quads][], [Turtle][], and [TriG][] parsers and serializers for [RDF.rb][] implemented in [Rust][].
@@ -13,7 +12,7 @@ This is a [Ruby][] implementation of [N-Triples][], [N-Quads][], [Turtle][], and
 ## Features
 RDF::Rust::Turtle parses [N-Triples][], [N-Quads][], [Turtle][], and [TriG][] into statements or triples. It also serializes to [N-Triples][], [N-Quads][], [Turtle][], or [TriG][].
 
-Install with `gem install rdf-turtle`
+Install with `gem install rdf-rust-turtle`
 
 * 100% free and unencumbered [public domain](http://unlicense.org/) software.
 * Implements a complete parser for [Turtle][].
@@ -59,7 +58,6 @@ Full documentation available on [Rubydoc.info][Turtle doc]
 
 * [Ruby](http://ruby-lang.org/) (>= 2.0)
 * [RDF.rb](http://rubygems.org/gems/rdf) (~> 2.0)
-* [FFI](http://rubygems.org/gems/ffi) (>= 2.0)
 
 ## Installation
 
@@ -96,6 +94,7 @@ see <http://unlicense.org/> or the accompanying {file:UNLICENSE} file.
 A copy of the [Turtle EBNF][] and derived parser files are included in the repository, which are not covered under the UNLICENSE. These files are covered via the [W3C Document License](http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231).
 
 [Ruby]:         http://ruby-lang.org/
+[Rust]:         https://www.rust-lang.org
 [RDF]:          http://www.w3.org/RDF/
 [YARD]:         http://yardoc.org/
 [YARD-GS]:      http://rubydoc.info/docs/yard/file/docs/GettingStarted.md
@@ -103,8 +102,7 @@ A copy of the [Turtle EBNF][] and derived parser files are included in the repos
 [RDF.rb]:       http://rubydoc.info/github/ruby-rdf/rdf
 [EBNF]:         http://rubygems.org/gems/ebnf
 [Backports]:    http://rubygems.org/gems/backports
-[N-Triples]:    http://www.w3.org/TR/rdf-testcases/#ntriples
+[N-Triples]:    http://www.w3.org/TR/n-triples/
+[N-Quads]:      http://www.w3.org/TR/n-quads/
 [Turtle]:       http://www.w3.org/TR/2012/WD-turtle-20120710/
-[Turtle doc]:   http://rubydoc.info/github/ruby-rdf/rdf-turtle/master/file/README.md
-[Turtle EBNF]:  http://dvcs.w3.org/hg/rdf/file/default/rdf-turtle/turtle.bnf
-[Freebase Dumps]: https://developers.google.com/freebase/data
+[TriG]:         http://www.w3.org/TR/trig/
