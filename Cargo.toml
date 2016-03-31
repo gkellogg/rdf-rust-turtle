@@ -1,0 +1,11 @@
+[package]
+name = "rdf-rust-turtle"
+version = "0.0.1"
+authors = ["Gregg Kellogg <gregg@greggkellogg.net>"]
+
+[lib]
+name = "fibonacci"
+crate-type = ["dylib"]
+
+[dependencies]
+git = "https://github.com/rust-lang/rlibc"
